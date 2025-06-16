@@ -1,0 +1,54 @@
+#!/bin/bash -eux
+
+pwd
+ACTIVATE ANACONDA
+eval "$(conda shell.bash hook)"
+conda activate neuroinf
+
+python ./towards_general_cognitive_load_assistants_ML.py both two top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse two top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 two top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both three top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse three top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 three top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both five top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse five top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 five top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both two top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse two top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 two top_features_only not_with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both three top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse three top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 three top_features_only not_with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both five top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse five top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 five top_features_only not_with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both two more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse two more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 two more_than_top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both three more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse three more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 three more_than_top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both five more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse five more_than_top_features_only with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 five more_than_top_features_only with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both two more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse two more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 two more_than_top_features_only not_with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both three more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse three more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 three more_than_top_features_only not_with_activity_labels
+
+python ./towards_general_cognitive_load_assistants_ML.py both five more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py muse five more_than_top_features_only not_with_activity_labels
+python ./towards_general_cognitive_load_assistants_ML.py e4 five more_than_top_features_only not_with_activity_labels
